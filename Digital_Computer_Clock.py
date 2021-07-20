@@ -4,7 +4,7 @@ from time import strftime
 root = Tk()
 root.title("Digital Computer Clock")
 
-fgcolor = ["aqua", "green", "blue", "yellow", "red", "pink", "purple", "magenta"]
+fgcolor = ["aqua", "green", "blue", "yellow", "pink", "red", "purple", "magenta"]
 
 
 def Time(counter=0):
