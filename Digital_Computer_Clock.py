@@ -16,7 +16,6 @@ def Time(counter=0):
     lbl.config(text = string, fg= fgcolor[counter])
     lbl.after(1000, Time, counter)
 
-#styling the label widget
 lbl = Label(root, font = ("arial", 160, "bold"), bg="black",fg ="aqua")
 
 lbl.pack(anchor = "center",fill = "both",expand=1)
